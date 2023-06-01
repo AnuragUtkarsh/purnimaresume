@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purnima's Resume</title>
+    <link rel="icon" href="./purpur.jpeg">
+    <style>
+        a{
+            color:red;
+        }
+    </style>
+    <script>
+        function msg()
+        {
+            alert("Submitted!");
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <td><img src="purnima.jpg" alt="I am Purnima" height="200px" width="200px"></td>
+                <td><h1 style="color: green;">Akanksha Purnima</h1></td>
+            </tr>
+        </table>
+        <nav>
+            <a href="#hobbies">Hobbies</a> |
+            <a href="#extra-curricular">Extra-Curricular</a> |
+            <a href="#feedback">FeedBack</a> 
+        </nav>
+        <div style="text-align: right;">
+            <a href="mailto: akankshapurnima07@gmail.com">akankshapurnima07@gmail.com</a>
+            <br>
+            <a href="tel:+91 934-197-0060">+91 934-197-0060</a>
+        </div>
+        <article>I am a Commerce Graduate and looking for a challenging Role in industry where I can Grow Myself 
+            and take my organisation to a greater heights.
+        </article>
+        <h2>Education</h2>
+        <table border="1">
+           <tr>
+            <td>Matriculation</td>
+            <td>79%</td>
+           </tr>
+           <tr>
+            <td>High-School</td>
+            <td>81.2%</td>
+           </tr>
+           <tr>
+            <td>B.Com</td>
+            <td>8.0 sgpa</td>
+           </tr>
+        </table>
+        <h2>Skills</h2>
+        <table border="1">
+           <tr>
+            <td>Tally</td>
+            <td>⭐⭐⭐</td>
+           </tr>
+           <tr>
+            <td>Accounting</td>
+            <td>⭐⭐⭐⭐</td>
+           </tr>
+           <tr>
+            <td>Business Studies</td>
+            <td>⭐⭐⭐</td>
+           </tr>
+        </table>
+        <h2 id="extra-curricular">ExtraCurricular Skill</h2>
+        <table border="1">
+            <tr>
+                <td>Judo</td>
+                <td>3 times National</td>
+            </tr>
+            <tr>
+                <td>Kho-Kho</td>
+                <td>1 time Regional</td>
+            </tr>
+        </table>
+        <h2 id="hobbies">Hobbies</h2>
+        <ul>
+            <li>Reading mystery novel</li>
+            <li>Playing</li>
+            <li>planting</li>
+        </ul>
+        <label for="file"><b>Upload Your Requirement</b></label>
+        <br>
+        <input type="file" name="file" id="file">
+        <div>
+            <table>
+                <tr>
+                    <td> <label for="song"><b>Favourite Song</b></label></td>
+                    <td> <audio src="favourite.mp3" controls id="song" >My Favourite song</audio></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td> <label for="Youtube"><b>Favourite video Song</b></label></td>
+                    <td> <iframe src="https://www.youtube.com/embed/TVntPXoebjY" height="200px" width="200px"></iframe></td>
+                </tr>
+            </table>
+        </div>
+        <fieldset id="feedback">
+            <legend>Your FeedBack</legend>
+            <b>Want To Hire?</b>
+            <br>
+            <label for="haa">YES</label>
+            <input type="radio" name="haa" id="haa">
+            <label for="naa">NO</label>
+            <input type="radio" name="haa" id="naa">
+            <br>
+            <input type="button" value="submit" onclick="msg()">
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="abcdegefyeg"></textarea>
+            <button>Submit</button>
+        </fieldset>
+        <fieldset>
+            <legend><b>Frequently Asked Question.</b></legend>
+            <details>
+                <summary>What is Your Experience?</summary>
+                <p>I have No prior Experience, I am A fresher.</p>
+            </details>
+            <details>
+                <summary>Are You A multiTasker?</summary>
+                <p>yes,I am.</p>
+            </details>
+            <details>
+                <summary>What is Your Strength?</summary>
+                <p>My strength is Hardworking and Punctuality.</p>
+            </details>
+        </fieldset>
+        <a href="#top">Top</a>
+        <footer>
+            &#169; All Rights Reserved.2023
+        </footer>
+    </main>
+    
+</body>
+</html>
